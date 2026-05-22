@@ -1,0 +1,31 @@
+   <!DOCTYPE html>
+   <html lang="en">
+     <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>IRP Workshop Enrollment</title>  
+         <link rel="stylesheet" href="style.css" />
+    </head>
+     <body>
+       <h2>IRP Workshop Enrollment</h2>
+   
+       <form id="enrollForm">
+         <input type="text" id="name" placeholder="Name" required />
+         <input type="email" id="email" placeholder="Email" required />
+         <input type="text" id="phone" placeholder="Phone Number" required />
+         <button type="submit">Enroll</button>
+       </form>
+       <h3>Participants</h3>
+       <table id="participantsTable">
+         <thead>
+           <tr>
+             <th>Name</th>
+             <th>Email</th>
+             <th>Phone</th>
+           </tr>
+         </thead>
+         <tbody></tbody>
+       </table>
+       <script src="script.js"></script>
+     </body>
+   </html>
